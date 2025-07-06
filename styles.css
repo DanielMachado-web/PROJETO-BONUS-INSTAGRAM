@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #fafafa;
+    /*cor do fundo da pagina*/
+    width: 100vw;
+    /* largura da pagina*/
+    height: 100vh;
+    /*altura da pagina*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-logo {
+    width: 350px;
+}
+
+.container-form {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
+    padding: 50px 40px 20px 40px;
+    /*forma mais simplificada horario*/
+
+}
+
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background: #0065f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+
+    opacity: 3;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+
+
+}
+
+.login-facebook {
+
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.esqueceu-senha {
+
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.paragrafo-conta {
+    font-size: 14px;
+}
+
+.paragrafo-app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-app {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.container-imagens{
+   
+    position: relative;
+}
+
+
+.img-celular{
+
+    width: 450px;
+}
+
+.imagem-celular{
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
+
+}
+
+.logo-instagram {
+    width: 100px;
+}
+
+.logo-ios {
+    width: 150px;
+
+}
+
+.logo-google {
+    width: 150px;
+    
+
+}
